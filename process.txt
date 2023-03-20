@@ -1,0 +1,16 @@
+1. I dont want to create seperate env, but what ever packages i install that will come inside folder. venv is name of environment.
+
+conda create -p venv python==3.8 -y,
+
+update conda :$ conda update -n base -c defaults conda.
+
+2. Activating env
+conda activate venv/
+
+3. now we are cloning the repository.
+	1. initializing - git init
+
+4. to run setup.py 
+pip install -r requirements.txt
+ 
+
